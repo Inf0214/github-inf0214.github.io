@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  margin: 0 70px;
+}
+
+#maintext{
+  width: 80%;
+  display: inline-block;
+  resize: both;
+  overflow: auto;
+  margin: 50px 150px;
+  
+}
+
+h1 {
+  margin: 0 0 25px 0;
+}
+
+header, blockquote {
+  background: #6e6e6e;
+  font-family: 'Abril Fatface', cursive;
+}
+
+header{
+  color:black;
+}
+
+blockquote{
+  position: relative;
+  color:white;
+}
+
+.quotemark{
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  top: 0px;;
+  left: -70px;
+}
+
+.quotetext{
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0 25px;
+  padding: 10px;
+}
+
+.quote{
+  padding: 30px 0;
+}
+
+h3, h4, h5 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: gray;
+  margin: 25px 80px;
+}
+
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+  color: gray;
+  margin: 50px 80px;
+}
+
+p, li {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  margin: 0 80px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+header {
+  background: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png") no-repeat;
+  background-size: cover;
+  height: 350px;
+  position: relative;
+}
+
+headertext {
+  position: absolute;
+  font-size: 30px;
+  bottom: 0;
+  left: 170px;
+}
